@@ -158,7 +158,7 @@ module Fog
             'response' => 'json',
             'command'  => 'login',
             'username' => username,
-            'password' => Digest::MD5.hexdigest(password),
+            'password' => password,
             'domain'   => domain
           })
 
